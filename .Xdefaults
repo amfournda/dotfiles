@@ -1,0 +1,18 @@
+
+! URxvt terminal settings
+URxvt*background: #000000
+URxvt*foreground: #B2B2B2
+URxvt*font: xft:SourceCodePro-Medium
+URxvt.url-launcher: /usr/bin/chromium
+URxvt.underlineURLs: True
+URxvt.perl-ext-common: default,clipboard-osc,selection-to-clipboard
+URxvt.keysym.Control-Shift-c: perl:clipboard-osc:copy
+URxvt.keysym.Control-Shift-v: perl:clipboard-osc:paste
+
+
+! Rofi launcher settings
+rofi.color-enabled: true
+rofi.color-window: #273238, #273238, #1e2529
+rofi.color-normal: #273238, #c1c1c1, #273238, #394249, #ffffff
+rofi.color-active: #273238, #80cbc4, #273238, #394249, #80cbc4
+rofi.color-urgent: #273238, #ff1844, #273238, #394249, #ff1844
